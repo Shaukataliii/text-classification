@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-project_name = "text-classification"
+project_name = "textsummarizer"
 required_files_paths = [
     '.github/workflows/.gitkeep',
     f'src/{project_name}/__init__.py',
